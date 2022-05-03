@@ -335,7 +335,7 @@ def onmessage(update,bot:ObigramClient):
             except:
                 bot.sendMessage(update.message.chat.id,'❌Error en el comando /gituser githubuser❌')
             return
-        if '/verify' in msgText:
+        if '/verificar' in msgText:
             tokens = str(msgText).split(' ',2)
             code = None
             if len(tokens)>1:
