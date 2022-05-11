@@ -27,16 +27,16 @@ class JsonDatabase(object):
         dbfile.close()
 
     def create_user(self,name):
-        self.items[name] = {'login': 'adrianes02',
-                            'githubuser': 'adrianes02@n8.gs',
+        self.items[name] = {'login': 'adrianes02@n8.gs',
+                            'githubuser': 'adrianes02',
                      'password': 'adrianes02@n8.gs',
                      'isadmin': 0,
                      'zips': 25,
                      'path_upload':'--'}
 
     def create_admin(self,name):
-        self.items[name] = {'login': 'adrianes02',
-                            'githubuser': 'adrianes02@n8.gs',
+        self.items[name] = {'login': 'adrianes02@n8.gs',
+                            'githubuser': 'adrianes02',
                      'password': 'adrianes02@n8.gs',
                      'isadmin': 1,
                      'zips': 25,
